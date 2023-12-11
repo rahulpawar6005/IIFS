@@ -1,0 +1,85 @@
+.logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  position: relative;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.logo-footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-top: -5px;
+  position: relative;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+/* .logo::before{
+    content:"";
+    padding:2px;
+    height: 1px;
+    border-left: 1px solid blue;
+    
+  } */
+.logo::after {
+  content: "Infinite Infotech Solution";
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  color: gray;
+  border-left: 2px solid #7c4dff;
+  border-bottom: 3px solid #7c4dff;
+  margin-top: 3px;
+  margin-left: 1px;
+  font-size: 12px;
+}
+.logo-footer::after {
+  content: "Infinite Infotech Solution";
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: -70px;
+  color: gray;
+  border-left: 2px solid #7c4dff;
+  border-bottom: 3px solid #7c4dff;
+  margin-top: 3px;
+  margin-left: 1px;
+  font-size: 12px;
+}
+.navbar {
+  padding: 0.8rem 1.5rem;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+.navbar Link {
+  display: block;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:active {
+  color: White !important;
+}
+.nav-link:hover {
+  color: #7c4dff !important;
+  border-bottom: 2px solid #7c4dff !important;
+  margin-top:-3px;
+}
+.footer-link:hover{
+  color: #7c4dff !important;
+  border-bottom: 1px solid #7c4dff !important;
+  margin-top:-3px;
+}
+
+.nav-items {
+  margin-left: 30%;
+  gap: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
